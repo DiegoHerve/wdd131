@@ -16,6 +16,9 @@ body {
     background-color:aquamarine;
     
 }
+nav {
+    display: flex;
+}
 
 .navigation {
     display: none;
@@ -49,6 +52,9 @@ body {
 main {
     max-width: 800px;
     margin: 0 auto;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gallery {
@@ -63,15 +69,10 @@ figure img {
     display: block;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
 
 figcaption {
     text-align: center;
+    
 }
 
 footer {
