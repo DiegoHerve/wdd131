@@ -13,16 +13,20 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color:aquamarine;
     
 }
+
+header {
+    background-color: aquamarine;
+}
+
 nav {
     display: flex;
 }
 
 .navigation {
     display: none;
-    background-color: lightsalmon;
+
 }
 
 .navigation.open {
