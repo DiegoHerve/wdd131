@@ -1,0 +1,81 @@
+
+:root {
+    --primary-color: #3dfc0d;
+    --secondary-color: red;
+    --background-color: #f4f4f4;
+    --card-color: rgba(255, 255, 255, 0.85);
+    --text-color: #222;
+    --heading-color: rgb(64, 25, 240);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--heading-color);
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 12px solid var(--secondary-color);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+
+
+.hero {
+    position: relative;
+}
+
+.hero picture,
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+
+.card {
+    background: var(--card-color);
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card p {
+    margin: .5rem 0;
+    text-align: center;
+}
+
+
+.weather-icon {
+    width: 20px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+
+footer {
+    background: var(--primary-color);
+    color: rgb(103, 17, 189);
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 1.6;
+}
