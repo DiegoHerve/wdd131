@@ -21,7 +21,7 @@
 
     .card {
         background: rgb(177, 240, 84);
-        box-shadow: black;
+        box-shadow: gray;
     }
 
     .card h2 {
